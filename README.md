@@ -4,7 +4,7 @@ End-to-end analysis of anonymized IDE usage for ML features (Mar–May 2025).
 Stack: **Python · Pandas · Matplotlib**. One-click run via notebook.
 
 > 👀 Recruiter shortcut:
-> - Open the self-contained notebook (context + analysis + findings):
+> - Open the self-contained notebook (**VISUALISATION** + context + analysis + findings):
 >   - [`notebooks/01_analysis.ipynb`](notebooks/01_analysis.ipynb)
 
 ---
@@ -39,7 +39,7 @@ Each row ≈ one user's **day** for a `(license, model, feature)` tuple:
 
 Assumptions: already daily-aggregated, anonymized, consistent units across rows.
 
-```
+---
 ## What the notebook covers
 1. **Sanity check (lite)** — types, numeric stats, compact distributions.
 2. **Baseline aggregations** — by model / feature / license (+ CSV exports).
@@ -71,9 +71,7 @@ See details in the self-contained notebook’s **Findings & Recommendations** se
 - Paths are relative; the notebook auto-resolves `data/data.csv`.
 - Outputs are re-generated on run; no manual steps required.
 - Data uses anonymized IDs and daily-aggregated signals only.
-- Stack: Python 3.x, Pandas, Matplotlib (no seaborn to keep deps minimal).
+- Stack: Python 3.x, Pandas, Matplotlib.
 
-## Contact
-If you have any questions or want a short walkthrough, feel free to reach out.
 
 
