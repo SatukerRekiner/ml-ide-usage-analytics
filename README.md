@@ -1,41 +1,27 @@
 # Analytics of ML Features Usage in IDEs
 
-Repozytorium zawiera analizę danych użycia funkcji ML w IDE (Mar–Maj 2025).  
-Zrobione w **Python + Pandas + Matplotlib**.
+End-to-end analysis of anonymized IDE usage for ML features (Mar–May 2025).  
+Stack: **Python · Pandas · Matplotlib**. One-click run via notebook.
 
-## Struktura
-```
+> 👀 Recruiter shortcut:
+> - Open the self-contained notebook (context + analysis + findings):
+>   - [`notebooks/01_analysis_selfcontained.ipynb`](notebooks/01_analysis_selfcontained.ipynb)
+>   - or quick preview: exported HTML → `notebooks/01_analysis_selfcontained.html` (if present)
+> - Core notebook used during development:
+>   - [`notebooks/01_analysis.ipynb`](notebooks/01_analysis.ipynb)
+
+---
+
+## Repo structure
+```bash
 ml-ide-usage-analytics/
-├── data/
-│   └── data.csv              # źródłowy dataset (anonymized, daily agg)
-├── figures/                  # automatycznie generowane wykresy
-├── outputs/                  # tabele pośrednie/eksporty
-├── notebooks/
-│   └── 01_analysis.ipynb     # główna analiza (Python)
-├── requirements.txt
-├── .gitignore
-└── README.md
+   ├─ data/
+   │ └─ data.csv # anonymized, daily-aggregated dataset
+   ├─ figures/ # charts auto-saved by notebook
+   ├─ outputs/ # CSV exports / findings
+   ├─ notebooks/
+   │ └─ 01_analysis.ipynb # main analysis
+   ├─ requirements.txt
+   ├─ .gitignore
+   └─ README.md
 ```
-
-## Jak uruchomić
-1. (Opcjonalnie) utwórz wirtualne środowisko i aktywuj:
-   ```bash
-   python -m venv .venv
-   # Windows: .venv\Scripts\activate
-   # macOS/Linux:
-   source .venv/bin/activate
-   ```
-2. Zainstaluj zależności:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Uruchom Jupyter:
-   ```bash
-   jupyter notebook
-   ```
-4. Otwórz `notebooks/01_analysis.ipynb` i uruchom wszystkie komórki.
-
-## Eksporty
-- Wybrane agregacje zapisują się do `outputs/` (CSV).
-- Wykresy zapisują się do `figures/` (PNG).
-
