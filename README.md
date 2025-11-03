@@ -5,9 +5,6 @@ Stack: **Python · Pandas · Matplotlib**. One-click run via notebook.
 
 > 👀 Recruiter shortcut:
 > - Open the self-contained notebook (context + analysis + findings):
->   - [`notebooks/01_analysis_selfcontained.ipynb`](notebooks/01_analysis_selfcontained.ipynb)
->   - or quick preview: exported HTML → `notebooks/01_analysis_selfcontained.html` (if present)
-> - Core notebook used during development:
 >   - [`notebooks/01_analysis.ipynb`](notebooks/01_analysis.ipynb)
 
 ---
