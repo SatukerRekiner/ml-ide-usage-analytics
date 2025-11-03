@@ -39,15 +39,6 @@ Each row ≈ one user's **day** for a `(license, model, feature)` tuple:
 
 Assumptions: already daily-aggregated, anonymized, consistent units across rows.
 
-## How to run (local)
-```bash
-python -m venv .venv
-# Windows: .venv\Scripts\activate
-# macOS/Linux:
-source .venv/bin/activate
-
-pip install -r requirements.txt
-jupyter notebook
 ```
 ## What the notebook covers
 1. **Sanity check (lite)** — types, numeric stats, compact distributions.
