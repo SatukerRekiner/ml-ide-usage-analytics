@@ -39,12 +39,3 @@ ml-ide-usage-analytics/
 - Wybrane agregacje zapisują się do `outputs/` (CSV).
 - Wykresy zapisują się do `figures/` (PNG).
 
-## Git & publikacja na GitHub
-```bash
-git init
-git add .
-git commit -m "Initial analysis: Python EDA, trends, CPR, pivots"
-git branch -M main
-git remote add origin <YOUR_REPO_URL>
-git push -u origin main
-```
