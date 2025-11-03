@@ -1,7 +1,7 @@
 # Analytics of ML Features Usage in IDEs
 
 Repozytorium zawiera analizę danych użycia funkcji ML w IDE (Mar–Maj 2025).  
-Zrobione w **Python + Pandas + Matplotlib**. Opcjonalnie (w drugim etapie) dorzucimy SQL/SQLite.
+Zrobione w **Python + Pandas + Matplotlib**.
 
 ## Struktura
 ```
